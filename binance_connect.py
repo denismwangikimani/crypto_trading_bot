@@ -9,7 +9,7 @@ api_secret = os.getenv('BINANCE_API_SECRET')
 
 print(api_key, api_secret)
 
-client = Spot(api_key, api_secret)
+client = Spot(api_key, api_secret, base_url="https://testnet.binance.vision")
 
 # Function to get the status
 def query_binance_status():
