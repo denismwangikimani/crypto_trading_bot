@@ -17,7 +17,7 @@ def live_trading():
         try:
             # Step 1: Download the latest data
             print("Fetching live data...")
-            data = download_data('BTCUSDT', '5m', '4 Jan 2025')
+            data = download_data('BTCUSDT', '5m', '10 Jan 2025')
             
             # Step 2: Calculate indicators
             calculate_indicators(data)
