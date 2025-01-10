@@ -7,7 +7,7 @@ load_dotenv()
 api_key = os.getenv('BINANCE_API_KEY')
 api_secret = os.getenv('BINANCE_API_SECRET')
 
-print(api_key, api_secret)
+#print(api_key, api_secret)
 
 client = Spot(api_key, api_secret, base_url="https://testnet.binance.vision")
 
